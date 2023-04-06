@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="netflix.css">
+    <style>
+      .back{filter: brightness(50%)}
+      #one {background-color: rgb(15, 14, 14);padding-right:155px;height:55px;border:2px solid rgba(255, 255, 255, 0.678) ;}
+      #two {background-color: rgb(137, 31, 31);border:1px;height: 55px;width: 70px;}
+    </style>
+
+</head>
+<body>
+    <div style="background-image:url('background.jpg'); 
+      width: 1000px;
+      height: 1000px;>
+ 
+			<div class="top2" >
+				<img src="logo.png" width="120px" height="75px" 
+      </div>
+		<h1 style=font-size: 40px; align="center";>영화와 시리즈를 무제한으로</h1>
+		<p align="center">다양한 디바이스에서 시청하세요. 언제든 해지하실 수 있습니다.</p>
+		<a href="#">
+           <p style= font-size:16px; align="center
+        "> 시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요. </p>
+           </a>
+           <div style="margin-top:30px;font-size:15px;color: rgb(246, 239, 239); " align="center"
+           <script>
+           <button id="one" onclick="toggleImg()">
+          <h4 style= color:gray;margin-left:170px>
+            이메일 입력</button></h4>
+          <button id ="two" onclick="toggleImg()">
+            시작하기</button>
+            </script>
+	</div>  
+  </div>
+   <script>
+    function toggleImg() 
+      {document.getElementById("img").src ="red.PNG";}
+  </script>
+
+
+</body>
+</html>
